@@ -19,6 +19,8 @@ Route::get('/about', function () {
     return view('pages.about');
 });
 
+Route::resource('articles', 'ArticlesController');
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
